@@ -1,0 +1,55 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  kepler_id: 1
+  KOI: 9.99
+  t0: 9.99
+  e_t0: 9.99
+  period: 9.99
+  e_period: 9.99
+  p_rad: 9.99
+  a: 9.99
+  teq: 9.99
+  dur: 9.99
+  depth: 9.99
+  d_r: 9.99
+  e_d_r: 9.99
+  r_r: 9.99
+  e_r_r: 9.99
+  b: 9.99
+  e_b: 9.99
+  snr: 9.99
+  chi: 9.99
+  teff: 9.99
+  log_g: 9.99
+  s_rad: 9.99
+  f_teff: 9.99
+  planet_name: MyString
+  paperURL: MyString
+
+two:
+  kepler_id: 1
+  KOI: 9.99
+  t0: 9.99
+  e_t0: 9.99
+  period: 9.99
+  e_period: 9.99
+  p_rad: 9.99
+  a: 9.99
+  teq: 9.99
+  dur: 9.99
+  depth: 9.99
+  d_r: 9.99
+  e_d_r: 9.99
+  r_r: 9.99
+  e_r_r: 9.99
+  b: 9.99
+  e_b: 9.99
+  snr: 9.99
+  chi: 9.99
+  teff: 9.99
+  log_g: 9.99
+  s_rad: 9.99
+  f_teff: 9.99
+  planet_name: MyString
+  paperURL: MyString

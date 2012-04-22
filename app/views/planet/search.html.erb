@@ -1,0 +1,24 @@
+<table id="planets" style="width: 90%;">
+  <thead>
+  <tr>
+  <% @columns.each do |column| %>
+    <% next if column == "id" %>
+    <% next if column == "created_at" %>
+    <% next if column == "updated_at" %>
+    <th><%= column %></th>
+  <% end %>
+  </tr>
+  </thead>
+  <tbody>
+  <% @planets.each do |planet| %>
+    <tr>
+      <% @columns.each do |column| %>
+        <% next if column == "id" %>
+        <% next if column == "created_at" %>
+        <% next if column == "updated_at" %>
+        <td><%= planet[column] %></td>
+      <% end %>
+    </tr>
+  <% end %>
+  </tbody>
+</table>
