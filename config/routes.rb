@@ -1,5 +1,6 @@
 Kepler::Application.routes.draw do
   get "planet/search"
+  get "star/search"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

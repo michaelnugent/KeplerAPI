@@ -10,9 +10,9 @@
 #  timeout: 5000
 development:
     adapter: mysql
-    database: kepler
-    username: kepler
-    password: keplerpass
+    database: keplerapi
+    username: root
+    password: 
     pool: 5
     timeout: 5000
 
